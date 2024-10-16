@@ -6,7 +6,7 @@ This repo contains Polish translation for Manufactur'inc, you can find the game 
 
  |	Percentage | Achievements |	contracts |	credits | durations |	equipments |
  |	--- |	--- |	--- |	--- |	--- |	--- |
- |	74% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
+ |	100% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
 
 
  | features |	feedback |	leaderboard |	login_popup |	menu |	resources |
@@ -16,4 +16,4 @@ This repo contains Polish translation for Manufactur'inc, you can find the game 
 
  |	settings |	store |	tutorials |	ui |	user_market_history |	wiki |
  |	--- |	--- |	--- |	--- |	--- |	--- |
- |	7/7 |	8/8 |	0/2 |	0/22 |	0/4 |	0/12 |
+ |	7/7 |	8/8 |	2/2 |	22/22 |	4/4 |	12/12 |
