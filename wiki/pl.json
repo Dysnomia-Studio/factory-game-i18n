@@ -3,9 +3,9 @@
 	"achievement-page-description": "Lista osiągnięć Manufactur'inc na Steam.",
 	"contracts-page-title": "Kontrakty",
 	"contract-page-title": "Kontrakt",
-	"equipments-page-title": "Equipments", //Review and context needed. What do you mean by equipment? Machines? 
-	"equipment-page-title": "Equipment", //^^
-	"equipment-page-description": "Ta karta pokazuje informację na temat ekwipunku \"%element%\" w Manufactur'inc.", //Review and context needed
+	"equipments-page-title": "Wyposażenie", 
+	"equipment-page-title": "Wyposażenie", //In both cases this means singular and plurar for the word equipment at the same time
+	"equipment-page-description": "Ta karta pokazuje informację na temat ekwipunku \"%element%\" w Manufactur'inc.",
 	"item-page-title": "Przedmiot",
 	"item-page-description": "Ta karta pokazuje informację na temat przedmiotu \"%element%\" w Manufactur'inc.",
 	"items-page-title": "Przedmioty",
