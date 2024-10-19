@@ -4,7 +4,7 @@
 	"contracts-page-title": "Kontrakty",
 	"contract-page-title": "Kontrakt",
 	"equipments-page-title": "Wyposażenie", 
-	"equipment-page-title": "Wyposażenie", //In both cases this means singular and plurar for the word equipment at the same time
+	"equipment-page-title": "Wyposażenie",
 	"equipment-page-description": "Ta karta pokazuje informację na temat wyposażenia \"%element%\" w Manufactur'inc.",
 	"item-page-title": "Przedmiot",
 	"item-page-description": "Ta karta pokazuje informację na temat przedmiotu \"%element%\" w Manufactur'inc.",
