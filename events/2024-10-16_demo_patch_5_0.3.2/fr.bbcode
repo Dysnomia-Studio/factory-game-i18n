@@ -1,0 +1,49 @@
+TITLE:
+Patch Demo #5 - 0.3.2
+
+SUBTITLE:
+Multiples correction de bugs et améliorations (particulièrement sur les performances côté serveur!)
+
+SUMMARY:
+Multiples correction de bugs et améliorations (particulièrement sur les performances côté serveur!)
+
+BODY:
+Bonjour à tous !
+
+Me voici avec une nouvelle série de corrections de bugs et d'améliorations :) Merci à tous ceux qui jouent actuellement au jeu et/ou qui donnent leur avis sur les corrections de bugs !
+
+[h1]Manufactur'inc v0.3.2[/h1]
+
+[b]Corrections :[/b]
+[list]
+[*] #1840 - Amélioration massive des performances du serveur de jeu, ce qui devrait rendre le temps de chargement beaucoup plus court pour les grosses usines, et certaines actions en jeu également :) Pour que cette correction soit possible, j'ai dû revenir sur une des corrections de la version 0.3.0 (qui était horrible au niveau des performances), et j'ai également retravaillé certaines parties du code du jeu.
+[*] #1837 - Correction de problèmes d'affichage lorsqu'un contrat est terminé mais que ses exigences ne sont plus remplies.
+[*] #1836 - Le fait de vider la carte provoquait un soft-lock du jeu
+[*] Correction des icônes dans l'onglet Historique
+[*] Amélioration de l'animation de suppression d'équipement (elle ne devrait plus être "lente")
+[*] Affichage en rouge lorsqu'un emplacement d'équipement est plein
+[*] Agrandissement du menu contextuel de l'usine (clic droit) pour éviter que le texte n'agisse bizarrement.
+[*] Divers correctifs ont été déployés côté serveur au cours des deux derniers jours.
+[/list]
+
+[b]Bugs connus :[/b]
+[list]
+[*] La version MacOS ne fonctionne pas à cause d'un problème externe, elle a été désactivée temporairement.
+[*] Le « montant maximum » affiché sur le marché mondial peut inclure des ressources en transit, ce qui peut le rendre erroné de 5 unités.
+[*] Vous pouvez parfois dépasser l'espace de stockage maximum.
+[*] Le temps de chargement initial augmente avec les plus grosses usines (il peut atteindre plusieurs minutes pour le haut du classement ...)
+[*] L'overlay Steam ne marche pas
+[/list]
+
+[b]Autre[/b]
+[list]
+[*] À partir de la 0.3.2, le serveur pourra vous demander de mettre à jour le jeu même s'il est déjà lancé (auparavant, la vérification de la version ne se faisait qu'au lancement du jeu), afin que vous n'ayez pas de problèmes avec les futures mises à jour.
+[*] Nouvelle série de tests automatisés pour m'aider à détecter les bugs avant qu'ils n'arrivent chez vous !
+[/list]
+
+[url=https://bugs.dysnomia.studio/projects/factory/roadmap]Feuille de route de développement public[/url]
+
+Merci à tous pour vos tests !
+N'hésitez pas à nous faire part de vos commentaires sur le serveur [url=https://discord.gg/c8aARey]Official Discord[/url] ou via le formulaire de commentaires en jeu.
+
+Elanis

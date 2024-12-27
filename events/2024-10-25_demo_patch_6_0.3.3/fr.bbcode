@@ -1,0 +1,73 @@
+TITLE:
+Patch Demo #6 - 0.3.3
+
+SUBTITLE:
+Multiples correction de bugs et améliorations (particulièrement sur les performances côté serveur!)
+
+SUMMARY:
+Multiples correction de bugs et améliorations (particulièrement sur les performances côté serveur!)
+
+BODY:
+Bonjour à tous !
+
+Si vous ne l'avez pas vu, j'ai publié un [url=https://store.steampowered.com/news/app/2146380/view/4529024222460953609?l=english]DevBlog sur la Steam Next Fest et l'avenir du jeu[/url] il y a quelques jours. 
+
+Voici le premier lot de mises à jour comme promis !
+
+[h1]Manufactur'inc v0.3.3[/h1]
+
+[quote from="Elanis"]
+[b]En raison des breaking changes de cette version, vous aurez peut être besoin de construire ou déplacer un de vos équipements avant que les liaisons entre-ceux ci soient correctes.[/b]
+[/quote]
+
+[b]Changements :[/b]
+[list]
+[*] [b]BREAKING CHANGE[/b] A partir de maintenant, l'usine ne reliera plus que les stockages et les machines non liés entre eux que :
+[list]
+[*] Lors de la construction d'un nouvel équipement
+[*] Lors du déplacement d'un équipement
+[*] Lors de la suppression d'un équipement
+[/list]
+Bientôt, vous pourrez également modifier manuellement ces liens.
+[i]Ce changement rendra la connexion au serveur et les requêtes multiples à celui-ci beaucoup plus rapides[/i].
+[*] [b]BREAKING CHANGE[/b] Simulation maximale d'une heure de temps hors ligne.
+[*] [u]Côté serveur[/u] Ne plus simuler l'usine deux fois dans la même seconde.
+[*] [u]Côté développeur[/u] Plus de tests automatisés et de benchmarks pour la simulation d'usine
+[*] #1808 - Lorsque l'on relie des équipements, le calcul de la capacité de stockage *devrait* prendre en compte les autres transferts également
+[*] Correction de l'animation de transit des ressources lors de l'entrée dans un équipement
+[*] Activation de la version polonaise dans le jeu (Merci à [b]@ByteBolt556[/b] sur Github qui a traduit tout le jeu et la page du magasin Steam)
+[*] Correction d'un bug lors de la production/consommation d'une ressource, le montant dans le champ numérique du marché global passait automatiquement à 1 assez souvent.
+[*] Correction du curseur de réglage de la musique lorsque la musique était réglée sur 0
+[*] Les scores du classement sont désormais ronds
+[*] Augmentation de la taille du classement à 25 joueurs
+[*] #1638 - Ajout de texte au survol dans la liste de stockage
+[*] #1844 - Correction de la version Linux qui ne démarrais pas
+[*] #1834 - Stockage : la production par seconde est maintenant la moyenne des 30 dernières secondes environ
+[*] #1831 - Ajout d'un bouton pour réinitialiser les tutoriels dans les paramètres
+[*] #1688 - Affichage des chemins d'entrée/sortie lorsque l'on ouvre le menu contextuel d'un equipement (via un clic droit)
+[*] [u]Côté serveur[/u] (Déjà déployé depuis le 17 octobre) Correction de l'usine ayant des quantités négatives dans le stockage.
+[*] [u]Côté serveur[/u] (Déjà déployé depuis le 17 octobre) Correction de l'usine ayant une liste de stockage bizarre (bois en double par exemple)
+[*] [u]Côté serveur[/u] (Déjà déployé depuis le 19 octobre) Simuler dans un thread séparé lors de l'authentification pour éviter de bloquer le serveur.
+[/list]
+
+[b]Bugs connus :[/b]
+[list]
+[*] La version MacOS ne fonctionne pas à cause d'un problème externe, elle a été désactivée temporairement.
+[*] Le « montant maximum » affiché sur le marché mondial peut inclure des ressources en transit, ce qui peut le rendre erroné de 5 unités.
+[*] L'overlay Steam ne marche pas
+[/list]
+
+[quote from=« Elanis »]
+[h3]Panne partielle le 8 novembre 2024 de 03:30 UTC à 05:30 UTC[/h3]
+
+Mon hébergeur vient de me prévenir qu'un de mes serveurs pourrait perdre sa connexion internet durant cette période. En conséquence, certains services de Dysnomia pourraient être partiellement indisponibles.
+
+Je ferai mon possible pour équilibrer avec les autres serveurs afin que cela ne soit pas visible :)
+[/quote]
+
+[url=https://bugs.dysnomia.studio/projects/factory/roadmap]Feuille de route de développement public[/url]
+
+Merci à tous pour vos tests et vos commentaires !
+N'hésitez pas à nous faire part de vos commentaires sur le serveur [url=https://discord.gg/c8aARey]Discord officiel[/url] ou via le formulaire de commentaires en jeu.
+
+Elanis

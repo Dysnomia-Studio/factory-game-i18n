@@ -1,0 +1,49 @@
+TITLE:
+Demo Patch #5 - 0.3.2
+
+SUBTITLE:
+Multiple bug fixes and improvements (especially on serverside performances!)
+
+SUMMARY:
+Multiple bug fixes and improvements (especially on serverside performances!)
+
+BODY:
+Hello everyone!
+
+I'm here with another batch of bugfixes and improvements. Thanks to everyone currently trying out the game and/or giving feedback/bug fixes!
+
+[h1]Manufactur'inc v0.3.2[/h1]
+
+[b]Fixes:[/b]
+[list]
+[*] #1840 - Massive game server performance improvements, which should make loading time a lot shorter for big factories, and some in-game actions as well :) To make this fix possible, I had to rollback one of the 0.3.0 fixes (which was horrible performance-wise), and reworked parts of the game code as well
+[*] #1837 - Fix rendering issues when a contract is finished but its requirements are not filled anymore
+[*] #1836 - Emptying the map was causing a game soft-lock
+[*] Fix icons in the history tab
+[*] Improve equipment deletion animation (it shouldn't "lag" anymore)
+[*] Show in red when an equipment slot is full
+[*] Make the factory context menu (right click) slightly larger to prevent text from acting weirdly
+[*] Various serverside hotfixes have been deployed in the last 2 days
+[/list]
+
+[b]Known bugs:[/b]
+[list]
+[*] The MacOS version won't work because of an external issue, it has been disabled temporarily
+[*] The "maximum amount" displayed on the global market may include in-transit resources, which may make it wrong by up to 5 units
+[*] You may go past maximum storage space sometimes
+[*] Initial loading time increases with big factory (it can reach minutes for the top of leaderboard ...)
+[*] Steam overlay doesn't work
+[/list]
+
+[b]Other[/b]
+[list]
+[*] From 0.3.2, the server will be able to prompt you to update the game even if it's already started (before, the version check was only on the game launch), so you won't have issues with future updates
+[*] New set of automated tests to help me catch bugs before they arrive to you!
+[/list]
+
+[url=https://bugs.dysnomia.studio/projects/factory/roadmap]Public dev roadmap[/url]
+
+Thank you all for your testing!
+Don't hesitate to send us your feedback on the [url=https://discord.gg/c8aARey]Official Discord[/url] server or via the in-game feedback form.
+
+Elanis

@@ -1,0 +1,73 @@
+TITLE:
+Demo Patch #6 - 0.3.3
+
+SUBTITLE:
+Multiple bug fixes and improvements (especially on serverside performances!)
+
+SUMMARY:
+Multiple bug fixes and improvements (especially on serverside performances!)
+
+BODY:
+Hello everyone!
+
+If you didn't see I released a [url=https://store.steampowered.com/news/app/2146380/view/4529024222460953609?l=english]DevBlog about the Steam Next Fest and the game future[/url] a few days ago. 
+
+Here's the first lot of updates as promised!
+
+[h1]Manufactur'inc v0.3.3[/h1]
+
+[quote from="Elanis"]
+[b]Due to the breaking changes in this release, you may need to build or move one of your machines to force the factory to link correctly most buildings together[/b]
+[/quote]
+
+[b]Changes:[/b]
+[list]
+[*] [b]BREAKING CHANGE[/b] From now on, the factory will re-link unlinked storage and machines together only:
+[list]
+[*] When building a new equipment
+[*] When moving an equipment
+[*] When removing an equipment
+[/list]
+Soon, you'll be able to manually change these links too.
+[i]This change will make login and multiple requests to the server a lot faster[/i]
+[*] [b]BREAKING CHANGE[/b] Do not simulate more than one hour of offline time when login in to prevent lags
+[*] [u]Serverside[/u] Do not simulate the factory twice in a second
+[*] [u]Developer-side[/u] More automated tests and benchmarks for factory simulation
+[*] #1808 - When linking equipments, storage capacity calculation *should* count other transfer as well
+[*] Fix resource transit animation when incoming into an equipment
+[*] Enable Polish version in-game (Thanks to [b]@ByteBolt556[/b] on Github who translated the whole game and Steam store page)
+[*] Fix a bug when a resource was produced/consumed, the amount in the global market numeric field automatically changed to 1 pretty often
+[*] Fix the music settings slider when the music was set to 0
+[*] Make leaderboard scores round
+[*] Increase leaderboard size to 25 players
+[*] #1638 - Hover text in storage list
+[*] #1844 - Fix the Linux version not starting
+[*] #1834 - Storage: production per second should be the average of the last 30 seconds or so
+[*] #1831 - Button to reset tutorials in settings
+[*] #1688 - Show input/output path when opening an equipment's context menu (right click)
+[*] [u]Serverside[/u] (Already deployed since Oct 17th) Fix the factory having negative amounts in storage
+[*] [u]Serverside[/u] (Already deployed since Oct 17th) Fix the factory having a weird storage list (duplicate wood for example)
+[*] [u]Serverside[/u] (Already deployed since Oct 19th) Simulate in a separate thread when authenticating to prevent freezing the server
+[/list]
+
+[b]Known bugs:[/b]
+[list]
+[*] The MacOS version won't work because of an external issue, it has been disabled temporarily
+[*] The "maximum amount" displayed on the global market may include in-transit resources, which may make it wrong by up to 5 units
+[*] Steam overlay doesn't work
+[/list]
+
+[quote from="Elanis"]
+[h3]Partial outage on Nov. 8th 2024 from 03:30 UTC to 05:30 UTC[/h3]
+
+My host just warned me that one of my servers may lose its internet connection during this period. As a result, some Dysnomia services may partially outage.
+
+I will do as I can to balance with the other servers so it's not visible :)
+[/quote]
+
+[url=https://bugs.dysnomia.studio/projects/factory/roadmap]Public dev roadmap[/url]
+
+Thank you all for your testing and feedback!
+Don't hesitate to send us your feedback on the [url=https://discord.gg/c8aARey]Official Discord[/url] server or via the in-game feedback form.
+
+Elanis
