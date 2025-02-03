@@ -21,5 +21,7 @@
   "yes": "Yes",
   "no": "No",
   "please_update": "Please update the game and restart it.",
-  "search": "Search ..."
+  "search": "Search ...",
+  "resource-buy-short": "Buy",
+  "resource-sell-short": "Sell"
 }
