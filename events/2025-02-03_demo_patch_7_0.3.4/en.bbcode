@@ -1,0 +1,63 @@
+TITLE:
+Demo Patch #7 - 0.3.4
+
+SUBTITLE:
+I am back with some quality of life and improvements :)
+
+SUMMARY:
+I am back with some quality of life and improvements :)
+
+BODY:
+Hello!
+
+I am BACK!
+
+It's been a few months since I haven't published an update on the demo, or actually even worked a lot on it, but it was for the best. As I explained in [url=https://store.steampowered.com/news/app/2146380/view/4529024222460953609?l=english]the DevBlog about the Steam Next Fest and the game future[/url], the demo release and Steam Next Fext were exhausting and I needed to rest. I eventually took more time than expected, I have been able to think about other things and work on them as well and now I'm back to writing some updates on the demo and seeing where it leads :)
+
+[h1]Changelogs:[/h1]
+
+[h2]Quality of life:[/h2]
+[list]
+[*] #1842 - Global Market: Improve buying/selling amount selection (e.g. 100% of the slider should make buy max space or sell all
+[*] #1818 - Market: search bar for resources
+[/list]
+
+[h2]Bugs:[/h2]
+[list]
+[*] Fix game crash when right-clicking sometimes in the main UI
+[*] [LINUX VERSION] Add missing .so file causing crashes on Steam Deck (and probably some other Linux systems too)
+[*] [LINUX VERSION] Prevent the game from instant crashing when the OS locale is set to "C"
+[/list]
+
+[h2]Housekeeping:[/h2]
+[list]
+[*] Update to Tauri V2
+[*] Update lots of technical dependencies
+[*] Improve unit tests
+[*] Because of Tauri V2:  Drop support for Ubuntu 20.04 (min. version is now 22.04)
+[/list]
+
+[h2]Other:[/h2]
+[list]
+[*] Remove Twitter link from "About page"
+[*] Update the Bluesky link in the "About page"
+[*] Moved the game servers to a new group of servers (on Jan 25th)
+[/list]
+
+[h1]Known issues:[/h1]
+[list]
+[*] The MacOS version won't work because of an external issue, it has been disabled temporarily (it's still in the Webkit team's hands :/)
+[*] The "maximum amount" displayed on the global market may include in-transit resources, which may make it wrong by up to 5 units
+[*] Steam overlay doesn't work
+[*] Tutorial needs to be reworked
+[*] We need to prevent the factory from infinitely growing asap, and it's planned in the current set of updates (electricity consumption, employee gauge, and dynamic market prices will be needed)
+[*] Multiple places in the game need tooltips or more information to clarify what you can do (resources icon in the market, machines in the bottom bar, ...)
+[*] The auto-linking between machines and/or storage is still pretty dumb and needs improvements (and a way for you, the player to override this choice!)
+[/list]
+
+[url=https://bugs.dysnomia.studio/projects/factory/roadmap]Public dev roadmap[/url]
+
+Thank you all for your testing and feedback!
+Don't hesitate to send us your feedback on the [url=https://discord.gg/c8aARey]Official Discord[/url] server or via the in-game feedback form.
+
+Elanis
