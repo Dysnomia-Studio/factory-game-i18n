@@ -20,5 +20,6 @@
   "delete-building-info": "This will give you 75% of its initial price.",
   "yes": "Yes",
   "no": "No",
-  "please_update": "Please update the game and restart it."
+  "please_update": "Please update the game and restart it.",
+  "search": "Search ..."
 }
