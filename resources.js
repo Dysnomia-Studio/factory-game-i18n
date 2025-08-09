@@ -1,10 +1,10 @@
-// This file is needed because vite doesn't like dynamic import when exporting tauri ...
+// This file is needed because vite doesn't like dynamic import when exporting ...
 
 import achievements_en from './achievements/en.json';
-import equipments_en from './equipments/en.json';
 import contracts_en from './contracts/en.json';
 import credits_en from './credits/en.json';
 import durations_en from './durations/en.json';
+import equipments_en from './equipments/en.json';
 import features_en from './features/en.json';
 import feedback_en from './feedback/en.json';
 import leaderboard_en from './leaderboard/en.json';
@@ -13,14 +13,14 @@ import menu_en from './menu/en.json';
 import resources_en from './resources/en.json';
 import settings_en from './settings/en.json';
 import tutorials_en from './tutorials/en.json';
-import user_market_history_en from './user_market_history/en.json';
 import ui_en from './ui/en.json';
+import user_market_history_en from './user_market_history/en.json';
 
 import achievements_fr from './achievements/fr.json';
-import equipments_fr from './equipments/fr.json';
 import contracts_fr from './contracts/fr.json';
 import credits_fr from './credits/fr.json';
 import durations_fr from './durations/fr.json';
+import equipments_fr from './equipments/fr.json';
 import features_fr from './features/fr.json';
 import feedback_fr from './feedback/fr.json';
 import leaderboard_fr from './leaderboard/fr.json';
@@ -29,14 +29,14 @@ import menu_fr from './menu/fr.json';
 import resources_fr from './resources/fr.json';
 import settings_fr from './settings/fr.json';
 import tutorials_fr from './tutorials/fr.json';
-import user_market_history_fr from './user_market_history/fr.json';
 import ui_fr from './ui/fr.json';
+import user_market_history_fr from './user_market_history/fr.json';
 
 import achievements_pl from './achievements/pl.json';
-import equipments_pl from './equipments/pl.json';
 import contracts_pl from './contracts/pl.json';
 import credits_pl from './credits/pl.json';
 import durations_pl from './durations/pl.json';
+import equipments_pl from './equipments/pl.json';
 import features_pl from './features/pl.json';
 import feedback_pl from './feedback/pl.json';
 import leaderboard_pl from './leaderboard/pl.json';
@@ -45,8 +45,8 @@ import menu_pl from './menu/pl.json';
 import resources_pl from './resources/pl.json';
 import settings_pl from './settings/pl.json';
 import tutorials_pl from './tutorials/pl.json';
-import user_market_history_pl from './user_market_history/pl.json';
 import ui_pl from './ui/pl.json';
+import user_market_history_pl from './user_market_history/pl.json';
 
 import config from './config.json';
 
