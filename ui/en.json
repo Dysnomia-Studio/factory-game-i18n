@@ -23,5 +23,6 @@
   "please_update": "Please update the game and restart it.",
   "search": "Search ...",
   "resource-buy-short": "Buy",
-  "resource-sell-short": "Sell"
+  "resource-sell-short": "Sell",
+  "server-connection-lost": "The connection to the server has been lost. Reconnecting ..."
 }

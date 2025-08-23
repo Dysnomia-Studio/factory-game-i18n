@@ -23,5 +23,6 @@
   "please_update": "Merci de mettre à jour le jeu et de le redémarrer.",
   "search": "Rechercher ...",
   "resource-buy-short": "Acheter",
-  "resource-sell-short": "Vendre"
+  "resource-sell-short": "Vendre",
+  "server-connection-lost": "La connexion au serveur vient d'être perdue. Tentative de reconnexion ..."
 }
