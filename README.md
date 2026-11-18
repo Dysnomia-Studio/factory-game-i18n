@@ -6,35 +6,23 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 
  |	Language |	Percentage |	achievements |	contracts |	credits |	durations |	equipments |
  |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
- |	Deutsch |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
  |	English |	100% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
  |	Francais |	96% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
- |	日本語 |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
  |	Polski |	96% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
- |	Русский |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
- |	简体中文 |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
 
 
  |	Language |	Percentage |	features |	feedback |	leaderboard |	login_popup |	menu |	resources |
  |	--- |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
- |	Deutsch |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
  |	English |	100% |	0/0 |	5/5 |	6/6 |	3/3 |	13/13 |	11/11 |
  |	Francais |	96% |	0/0 |	5/5 |	6/6 |	3/3 |	13/13 |	11/11 |
- |	日本語 |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
  |	Polski |	96% |	0/0 |	5/5 |	6/6 |	3/3 |	13/13 |	11/11 |
- |	Русский |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
- |	简体中文 |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
 
 
  |	Language |	Percentage |	settings |	store |	tutorials |	ui |	user_market_history |	wiki |
  |	--- |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
- |	Deutsch |	1% |	0/9 |	2/9 |	0/2 |	0/26 |	0/4 |	0/12 |
  |	English |	100% |	9/9 |	9/9 |	2/2 |	26/26 |	4/4 |	12/12 |
  |	Francais |	96% |	9/9 |	3/9 |	2/2 |	26/26 |	4/4 |	12/12 |
- |	日本語 |	1% |	0/9 |	2/9 |	0/2 |	0/26 |	0/4 |	0/12 |
  |	Polski |	96% |	7/9 |	8/9 |	2/2 |	22/26 |	4/4 |	12/12 |
- |	Русский |	1% |	0/9 |	2/9 |	0/2 |	0/26 |	0/4 |	0/12 |
- |	简体中文 |	1% |	0/9 |	2/9 |	0/2 |	0/26 |	0/4 |	0/12 |
 
 
 ## How to contribute ?
@@ -58,20 +46,24 @@ Participate on the official [Translation Thread on Steam](https://steamcommunity
 - bg : български език
 - cs : čeština
 - da : Dansk
+- de : Deutsch
 - el : Ελληνικά
 - es : Español
 - fi : Suomi
 - hu : Magyar
 - it : Italiano
+- ja : 日本語
 - ko : 한국어
 - nl : Nederlands
 - no : Norsk
 - pt-BR : Português-Brasil
 - pt : Português
 - ro : Română
+- ru : Русский
 - sv : Svenska
 - th : ไทย
 - tr : Türkçe
 - uk : Українська
 - vi : Tiếng Việt
+- zh-CN : 简体中文
 - zh-TW : 繁體中文
